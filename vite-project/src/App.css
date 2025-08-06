@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bungee+Spice&family=Butterfly+Kids&family=Cedarville+Cursive&family=Creepster&family=Fredericka+the+Great&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Love+Ya+Like+A+Sister&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Lilita One";
+  padding-top: 100px;
+}
+
+#App{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+#App h1{
+  color: black;
+}
+
+input {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+textarea{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  /* border-style: solid;
+  border-width: 5px; */
+  border-radius: 5px;
+  /* border-color: black; */
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px; 
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #341b02;
+  padding: 60px;
+  border-radius: 8px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  height: 100%;
+  font-size: 30px;
+  width:10%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#entry{
+  background-color: black;
+  color: white;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+#addBtn{
+  background-color: black;
+  color: white;
+  /* border-style: solid;
+  border-width: 5px; */
+  border-radius: 5px;
+  /* border-color: black; */
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px; 
+}
+
+#createBtn{
+  background-color: black;
+  color: white;
+  /* border-style: solid;
+  border-width: 5px; */
+  border-radius: 5px;
+  /* border-color: black; */
+  /* padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px; */
+  width: 50px;
+}
+
+.sortButton {
+  background-color: black;
+  color: white;
+  /* border-style: solid;
+  border-width: 5px; */
+  border-radius: 5px;
+  /* border-color: black; */
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px; 
+  margin: 5px;
+}
+
+.inputType{
+  display: grid;
+}
+
+.viewDisplay{
+  display: flex;
+}
+
+#addComment{
+  margin-right: 30px;
+  width: 500px;
+}
+
+.formatting{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inputType label{
+  text-align: left;
+}
+
+#ordering{
+  display: flex;
+}
+
+#ordering input{
+  margin-right: 100px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+h1{
+  color: black;
+}
+
+#hot{
+  display: flex;
+  justify-content: space-between;
+}
+
+#detailBar{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
